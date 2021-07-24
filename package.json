@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "html5:build": "node Kha/make --target html5"
+    }
+}
