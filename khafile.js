@@ -9,6 +9,7 @@ prj.addDefine('macro-times');
 prj.addDefine('dump=pretty');
 
 prj.addAssets('assets');
+prj.addAssets(`platform/${platform}`);
 prj.addSources('src');
 
 resolve(prj);
